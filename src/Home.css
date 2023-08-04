@@ -1,10 +1,27 @@
-.shopIcon {
-    height: 50px;
-    width: 50px;
+
+.main-container {
+    width: 300px;
+    margin-left: 400px;
 }
 
-.OtherPages {
+.OtherPages{
     display: flex;
     justify-content: space-between;
-    margin-right: 0px;
+}
+
+.OtherPages > a {
+   text-decoration: none;
+   color: black;
+}
+
+.thirdDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+.regIcon, .searchIcon, .shopCartIcon, .heartIcon , .shopIcon {
+    height: 70px;
+    width: 70px;
+    color: pink;
 }
